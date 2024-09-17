@@ -19,7 +19,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Web Development</h2>
+                        <h2 class="h3 figure-project__heading">Retail & Lifestyle</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -47,7 +47,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Mobile App Development</h2>
+                        <h2 class="h3 figure-project__heading">Jewellery</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -75,7 +75,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">UI UX Design</h2>
+                        <h2 class="h3 figure-project__heading">Healthcare</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -103,7 +103,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Brand Identity Design</h2>
+                        <h2 class="h3 figure-project__heading">Manufacturing</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -131,7 +131,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Social Media Managment</h2>
+                        <h2 class="h3 figure-project__heading">Hospitality</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -160,7 +160,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Performance Marketing</h2>
+                        <h2 class="h3 figure-project__heading">Education</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -190,7 +190,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Product Development</h2>
+                        <h2 class="h3 figure-project__heading">Real Estate</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -220,7 +220,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">ERP & CRM</h2>
+                        <h2 class="h3 figure-project__heading">Corporates</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
@@ -250,7 +250,7 @@
                         </div>
                       </div>
                       <div class="figure-project__content pl-md-2 pt-md-2 pt-1 pl-0">
-                        <h2 class="h3 figure-project__heading">Website Maintainace</h2>
+                        <h2 class="h3 figure-project__heading">Finance & Accounting</h2>
                         <div class="figure-project__category mt-md-1 mt-0-5">
                           <div class="change-text-hover small-caps js-change-text-hover change-text-hover_has-line text-left">
                             <!-- label by default -->
