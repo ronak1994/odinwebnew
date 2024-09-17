@@ -13,29 +13,24 @@
                 <div class="slider-fullscreen-projects__content swiper-container js-slider-fullscreen-projects__content">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">Website, Social Media</div>
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars">AFROFUNKK</h2>
+                     
+                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars" style="    text-transform: uppercase;">Chargesol</h2>
+                      <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">integrated software suite for electric vhecnial charging 
+                      management</div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">E-Commerce Website, Software</div>
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars">CRAFTBOAT</h2>
+                 
+                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">Aesthetic AI</h2>     <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">AI powered agents for healthcare professionals</div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">Mobile App, Website, Software</div>
-                      <h2 class="h1 slider__heading js-split-tex ws-7" data-split-text-type="lines, words, chars">FOONA</h2>
+                     
+                      <h2 class="h1 slider__heading js-split-tex ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">Ace Spark</h2> <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">– Integrated suite for Jwellery business management</div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">E-Commerce Website</div>
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars">ICO & THE BIRD</h2>
+                   
+                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">ProwPlus</h2>   <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars"> White labelled Virtual Assistant for project managment</div>
                     </div>
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">Mobile App,  Website, Software</div>
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars">SCRAP ON WHEELS</h2>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="small-caps slider__subheading js-split-text split-text mb-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">E-Commerce Website</div>
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars">ZOLOCRUST</h2>
-                    </div>
+                   
                   </div>
                 </div>
                 <!-- - slider CONTENT -->
