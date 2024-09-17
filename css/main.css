@@ -203,6 +203,8 @@
   --dropcap-color-light: #ffffff;
   --dropcap-color-dark: #111111;
   /* Fluid paddings & margins (min values) */
+  --distance-min-xxsmall: 3;
+
   --distance-min-xsmall: 30;
   --distance-min-small: 30;
   --distance-min-medium: 50;
@@ -2136,11 +2138,11 @@ a:hover {
 }
 
 .filter__item:not(.filter__item_active):hover {
-  color: var(--color-dark-1);
+  color: var(--color-light-1);
 }
 
 .filter__item_active {
-  color: var(--color-dark-1);
+  color: var(--color-light-1);
 }
 
 .filter__underline {
@@ -3585,7 +3587,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 .header.opened[data-arts-header-overlay-theme="dark"] a:hover {
-  color: #fff;
+  color: var(--color-dark-2);
 }
 
 .header.opened[data-arts-header-overlay-theme="dark"] .header__overlay-menu-back .arrow .circle {
@@ -9732,6 +9734,8 @@ small, .small {
   }
 }
 
+
+
 .pb-medium {
   padding-bottom: calc(1 * (var(--distance-min-medium) * 1px));
 }
@@ -12213,3 +12217,8 @@ small, .small {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.h1.light {
+  color: var(--h1-color-light);
+}

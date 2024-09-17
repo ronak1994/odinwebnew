@@ -147,7 +147,7 @@
       </div>
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
-      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"){echo "light";}else{echo "dark";}?>" data-arts-header-sticky-theme="bg-white" data-arts-header-logo="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"){echo "secondary";}else{echo "primary";}?>" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="light" data-arts-header-overlay-background="#ffffff">
+      <header class="header header_menu-right header_fixed container-fluid" id="page-header" data-arts-theme-text="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"  ){echo "light";}else{echo "light";}?>" data-arts-header-sticky-theme="bg-dark-1" data-arts-header-logo="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"){echo "secondary";}else{echo "primary";}?>" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#ffffff">
         <!-- top bar -->
         <div class="header__container header__controls">
           <div class="row justify-content-between align-items-center">
@@ -190,10 +190,10 @@
               <li class="menu-item-has-children"><a class="h2" href="<?php echo base_url();  ?>" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Home</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'works') ?>" data-pjax-link="overlayMenu">
+              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'portfolio') ?>" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Portfolio</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'products') ?>" data-pjax-link="overlayMenu">
+              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'works') ?>" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Products</div></a>
               </li>
              
@@ -207,7 +207,7 @@
               <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'aboutus') ?>" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About Compnay</div></a>
               </li>
-              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'contactus') ?>" data-pjax-link="overlayMenu">
+              <li class="menu-item-has-children"><a class="h2" href="<?php echo(base_url() . 'resources') ?>" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Resources</div></a>
               </li>
             </ul>
