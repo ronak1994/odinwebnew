@@ -33,6 +33,23 @@
     <meta name="msapplication-TileImage" content="<?php echo base_url(). 'img/content/ms-icon-144x144.png'  ?>"/>
     <meta name="theme-color" content="#ffffff"/>
     <link rel="icon" type="image/x-icon" href="<?php echo base_url(). 'img/content/favicon.ico'  ?>"/>
+    <style>
+   
+   .mob {
+
+     display: none;
+   }
+   @media (max-width: 768px) {
+     .mob {
+       display: block;
+     }
+
+     .desk {
+       display: none;
+     }
+   }
+  
+ </style>
   </head>
   <body>
     <div data-barba="wrapper">
