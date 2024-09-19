@@ -13,7 +13,7 @@
                         <article class="figure-post">
                           <!-- post featured image -->
                           <div class="figure-post__media">
-                            <a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-1-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                            <a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/Blog/tech1.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">20</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -33,7 +33,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Equity/');?>"><img data-src="img/assets/sectionBlog/post-2-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Equity/');?>"><img data-src="img/Blog/eq1.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">19</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -53,7 +53,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/AI/');?>"><img data-src="img/assets/sectionBlog/post-3-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/AI/');?>"><img data-src="img/Blog/brand.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">17</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -73,7 +73,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brand/');?>"><img data-src="img/assets/sectionBlog/post-4-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brand/');?>"><img data-src="img/Blog/brand11.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">16</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -93,7 +93,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Sales/');?>"><img data-src="img/assets/sectionBlog/post-5-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Sales/');?>"><img data-src="img/Blog/Sales.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -113,7 +113,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Retain/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Retain/');?>"><img data-src="img/Blog/rel.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -133,7 +133,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Product/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Product/');?>"><img data-src="img/Blog/product.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -153,7 +153,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Funding/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Funding/');?>"><img data-src="img/Blog/mark.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -173,7 +173,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Startup/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Startup/');?>"><img data-src="img/Blog/Equity.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
@@ -193,7 +193,7 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brands/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brands/');?>"><img data-src="img/Blog/fun2.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
