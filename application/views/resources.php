@@ -20,9 +20,9 @@
                           <!-- - post featured image -->
                           <!-- post header & info  -->
                           <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">Motivational Sayings. The Ten Greatest Ones</h2></a>
+                              <h2 class="h4 mt-0">Is Your D2C Startup Ready to Attract the Right Investors?</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">D2C</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -33,16 +33,16 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-2-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Equity/');?>"><img data-src="img/assets/sectionBlog/post-2-thumb.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">19</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
                           <!-- - post featured image -->
                           <!-- post header & info  -->
-                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">Make It Your Destiny To Accomplish Great Things In Your Life</h2></a>
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/Equity/');?>">
+                              <h2 class="h4 mt-0">Equity Structuring Confusing You? Here’s How to Build a Strong Foundation!</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Photography</a></li>
+                              <li><a href="#">Equity</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -53,16 +53,16 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-3-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/AI/');?>"><img data-src="img/assets/sectionBlog/post-3-thumb.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">17</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
                           <!-- - post featured image -->
                           <!-- post header & info  -->
-                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">The Small Change That Creates Massive Results In Your Life</h2></a>
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/AI/');?>">
+                              <h2 class="h4 mt-0">Want to Harness the Power of AI for Your D2C Brand’s Growth?</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Photography</a></li>
+                              <li><a href="#">AI</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -73,16 +73,16 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-4-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brand/');?>"><img data-src="img/assets/sectionBlog/post-4-thumb.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">16</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
                           <!-- - post featured image -->
                           <!-- post header & info  -->
-                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">Use Your Reset Button To Change Your Vibration</h2></a>
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/D2C_Brand/');?>">
+                              <h2 class="h4 mt-0">Struggling to Make Your D2C Brand Stand Out? Let’s Fix That!</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Lifestyle</a></li>
+                              <li><a href="#">D2C Brand</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -93,16 +93,16 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-5-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Sales/');?>"><img data-src="img/assets/sectionBlog/post-5-thumb.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
                           <!-- - post featured image -->
                           <!-- post header & info  -->
-                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">When You Are Down And Out How Do You Get Up And Go Forward</h2></a>
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/D2C_Sales/');?>">
+                              <h2 class="h4 mt-0">Are You Maximizing Your D2C Sales Potential?</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Interviews</a></li>
+                              <li><a href="#">D2C Sales</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -113,16 +113,96 @@
                       <div class="section-grid__item">
                         <article class="figure-post">
                           <!-- post featured image -->
-                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Retain/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
                               <!-- post date -->
                               <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
                               <!-- - post date --></a></div>
                           <!-- - post featured image -->
                           <!-- post header & info  -->
-                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
-                              <h2 class="h4 mt-0">Hypnosis 12 Steps To Acquire Mind Power</h2></a>
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/Retain/');?>">
+                              <h2 class="h4 mt-0">How Can You Retain Customers and Build Long-Lasting Relationships?</h2></a>
                             <ul class="figure-post__categories small-caps">
-                              <li><a href="#">Tips &amp; Tricks</a></li>
+                              <li><a href="#">Relationships</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Product/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/Product/');?>">
+                              <h2 class="h4 mt-0">Got a Great Product Idea? Here’s How to Turn It Into Reality!</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Product</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/Funding/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/Funding/');?>">
+                              <h2 class="h4 mt-0">Struggling to Secure Funding? Here’s How to Get Investors Excited About Your D2C Brand!</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Funding</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Startup/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/D2C_Startup/');?>">
+                              <h2 class="h4 mt-0">Equity Dilemmas Keeping You Up at Night? Let’s Solve Them Together!</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">D2C Startups</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/D2C_Brands/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/D2C_Brands/');?>">
+                              <h2 class="h4 mt-0">Want to Take Your D2C Brand to the Next Level? Here’s How to Use Data to Win!</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">D2C Brands</a></li>
                             </ul>
                           </div>
                           <!-- - post header & info -->
@@ -175,19 +255,7 @@
                         <li class="cat-item"><a href="#">Development</a><span>5</span></li>
                         <li class="cat-item"><a href="#">Creative Life</a><span>8</span></li>
                         <li class="cat-item"><a href="#">Travel</a><span>2</span></li>
-                        <li class="cat-item"><a href="#">Interviews</a><span>4</span>
-                          <ul class="children">
-                            <li class="cat-item"><a href="#">Child Category 01</a><span>1</span></li>
-                            <li class="cat-item"><a href="#">Child Category 02</a><span>1</span></li>
-                            <li class="cat-item"><a href="#">Child Category 03</a><span>1</span>
-                              <ul class="children">
-                                <li class="cat-item"><a href="#">Grandchild Category</a><span>1</span></li>
-                              </ul>
-                            </li>
-                            <li class="cat-item"><a href="#">Child Category 04</a><span>1</span></li>
-                            <li class="cat-item"><a href="#">Child Category 05</a><span>1</span></li>
-                          </ul>
-                        </li>
+                        
                       </ul>
                       <!-- - content -->
                     </section>
