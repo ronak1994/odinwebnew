@@ -13,24 +13,18 @@
                 <div class="slider-fullscreen-projects__content swiper-container js-slider-fullscreen-projects__content">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                     
                       <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars" style="    text-transform: uppercase;">Chargesol</h2>
                       <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">integrated software suite for electric vhecnial charging 
                       management</div>
                     </div>
                     <div class="swiper-slide">
-                 
                       <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">Aesthetic AI</h2>     <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">AI powered agents for healthcare professionals</div>
                     </div>
                     <div class="swiper-slide">
                      
                       <h2 class="h1 slider__heading js-split-tex ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">Ace Spark</h2> <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars">– Integrated suite for Jwellery business management</div>
                     </div>
-                    <div class="swiper-slide">
-                   
-                      <h2 class="h1 slider__heading js-split-text ws-7" data-split-text-type="lines, words, chars"style="    text-transform: uppercase;">ProwPlus</h2>   <div class="small-caps slider__subheading js-split-text split-text mt-1" data-split-text-type="lines, words, chars" data-split-text-set="chars"> White labelled Virtual Assistant for project managment</div>
-                    </div>
-                   
+                    
                   </div>
                 </div>
                 <!-- - slider CONTENT -->
@@ -39,64 +33,27 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide overflow">
                       <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/afro.jpg"></div>
+                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/Chargesol.png"></div>
                       </div>
                     </div>
                     <div class="swiper-slide overflow">
                       <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/craftboat.jpg"></div>
+                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/Aesthetic-ai.png"></div>
                       </div>
                     </div>
                     <div class="swiper-slide overflow">
                       <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/foona.jpg"></div>
+                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/Ace-Spark.png"></div>
                       </div>
                     </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/ico.jpg"></div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/sow.jpg"></div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide overflow">
-                      <div class="slider__images-slide-inner js-transition-img overflow" data-swiper-parallax="90%" data-swiper-parallax-opacity="0">
-                        <div class="slider__bg swiper-lazy js-transition-img__transformed-el" data-background="img/assets/projects/works/zolocrust.jpg"></div>
-                      </div>
-                    </div>
+                    
                   </div>
                   <!-- overlay-->
                   <div class="slider__overlay overlay overlay_dark"></div>
                   <div class="slider__circle"></div>
                   <!-- - overlay-->
                 </div>
-                <!-- - slider IMAGES -->
-                <!-- slider FOOTER -->
-                <!-- <div class="slider-fullscreen-projects__footer swiper-container js-slider-fullscreen-projects__footer">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered" data-hover="Explore Project" href="project-details-4-halfscreen-left-left.html" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore Project</span></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered" data-hover="Explore Project" href="project-details-6-bottom-fullwidth.html" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore Project</span></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered" data-hover="Explore Project" href="project-details-8-halfscreen-right-left.html" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore Project</span></a>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="slider__wrapper-button-footer"><a class="button button_white button_bordered" data-hover="Explore Project" href="project-details-10-halfscreen-left-right.html" data-pjax-link="fullscreenSlider"><span class="button__label-hover">Explore Project</span></a>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- - slider FOOTER -->
-                <!-- slider COUNTER -->
+                
                 <div class="slider__wrapper-counter slider-fullscreen-projects__counter">
                   <div class="slider__counter slider__counter_current">
                     <div class="js-slider-fullscreen-projects__counter-current swiper-container">
@@ -317,3 +274,4 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwR_TrF6h7-pMxkKv_q2t8BXX3w6QuFOc" async></script>
   </body>
 </html>
+

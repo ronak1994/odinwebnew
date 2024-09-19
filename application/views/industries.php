@@ -14,7 +14,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-1_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/retail.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -42,7 +42,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-2_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/jewellery.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -70,7 +70,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-3_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/healthcare.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -98,7 +98,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-4_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/manufacturing.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -126,7 +126,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-5_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/hospitality.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -155,7 +155,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-11_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/education.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -185,7 +185,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-11_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/real-aestate.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -215,7 +215,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-11_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/corporates.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
@@ -245,7 +245,7 @@
                       <div class="hover-zoom__inner">
                         <div class="hover-zoom__zoom">
                           <div class="figure-project__wrapper-img js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/assets/projects/project-11_vertical.jpg" src="#" alt="" width="1280" height="1920"/></div>
+                            <div class="lazy js-transition-img__transformed-el"><img data-src="img/INDUSTRIES/finance.png" src="#" alt="" width="1280" height="1920"/></div>
                           </div>
                         </div>
                       </div>
