@@ -6,14 +6,16 @@
             <div class="section-masthead__inner section-fullheight__inner container-fluid">
               <header class="row section-masthead__header justify-content-center">
                 <div class="col">
-                  <div class="section-masthead__heading split-text js-split-text overflow" data-split-text-type="lines,chars" data-split-text-set="chars">
-                    <h1 class="xl mt-0 mb-0">Rhye</h1>
+                <div class="w-100">
+                    <div class="section-masthead__subheading h4 mt-0-5 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Welcome to the next generation of</span></div>
+                  </div>
+                
+                <div class="section-masthead__heading split-text js-split-text overflow" data-split-text-type="lines,chars" data-split-text-set="chars">
+                    <h1 class="xl mt-0 mb-0">Mobile Apps</h1>
                   </div>
                   <div class="w-100">
-                    <div class="section-masthead__subheading h4 mt-0-5 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>AJAX Portfolio HTML5 Template</span></div>
-                  </div>
-                  <div class="w-100">
-                    <div class="section-masthead__wrapper-button mt-xsmall"><a class="button button_bordered button_white" data-hover="Download Now" href="https://themeforest.net/item/rhye-ajax-portfolio-html5-template/26306579?aid=artemsemkin&aso=demo&aca=cta" target="_blank"><span class="button__label-hover">Download Now</span></a>
+                    <div class="section-masthead__wrapper-button mt-xsmall">
+                      <a class="button button_bordered button_white" data-hover="Download Now" href="" target="_blank"><span class="button__label-hover">Explore Now</span></a>
                     </div>
                   </div>
                 </div>

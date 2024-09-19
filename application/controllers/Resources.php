@@ -8,4 +8,11 @@ class Resources extends CI_Controller {
 		$this->load->view('resources');
 		$this->load->view('footer');
 	}
+
+	public function Technology()
+	{
+		$this->load->view('header');
+		$this->load->view('resources/technology/post1');
+		$this->load->view('footer');
+	}
 }

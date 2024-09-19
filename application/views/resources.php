@@ -1,163 +1,243 @@
-     <!-- PAGE MAIN -->
-     <div class="js-smooth-scroll bg-dark-2" id="page-wrapper" data-barba="container">
-     <main class="page-wrapper__content">
-          <!-- section MASTHEAD -->
-          <section class="section section-masthead d-none" data-background-color="var(--color-dark-1)"></section>
-          <!-- - section MASTHEAD -->
-          <!-- section GRID PROJECTS 2 COLUMNS -->
-          <section class="section section-grid section-content overflow bg-dark-1 pt-large pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-tablet="2" data-grid-mobile="1" data-arts-theme-text="dark">
-            <div class="container-fluid">
-              <div class="row justify-content-between align-items-center section pb-medium">
-                <div class="col-12 col-lg-auto">
-                  <div class="section-grid__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <h1 class="h1 light mt-0 mb-0">Resources</h1>
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="section__headline mt-2 mr-auto"></div>
-                </div>
-                <div class="col-12 col-lg-auto pt-medium pt-md-0 pb-md-3">
-                  <div class="filter js-filter">
-                    <div class="filter__inner">
-                      <div class="container-fluid no-gutters">
-                        <!-- items -->
-                        <div class="row justify-content-center">
-                          <!-- all (*) -->
-                          <div class="col-lg-auto col-12 filter__item filter__item_active js-filter__item" data-filter="*">
-                            <div class="split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">All</div>
+<div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
+        <main class="page-wrapper__content">
+          <!-- section BLOG GRID SIDEBAR -->
+          <section class="section section-blog section-grid pt-large section-content overflow pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-lg-8 section-blog__posts">
+                  <!-- posts -->
+                  <div class="grid grid_fluid-3 js-grid">
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 grid__sizer js-grid__sizer"></div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media">
+                            <a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-1-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">20</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">Motivational Sayings. The Ten Greatest Ones</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Lifestyle</a></li>
+                            </ul>
                           </div>
-                          <!-- - all (*) -->
-                          <div class="col-lg-auto col-12 filter__item js-filter__item" data-filter=".category-portraits">
-                            <div class="split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">Tutorials</div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-2-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">19</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">Make It Your Destiny To Accomplish Great Things In Your Life</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Photography</a></li>
+                            </ul>
                           </div>
-                          <div class="col-lg-auto col-12 filter__item js-filter__item" data-filter=".category-ui-ux-design">
-                            <div class="split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">Case Studies</div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-3-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">17</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">The Small Change That Creates Massive Results In Your Life</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Photography</a></li>
+                            </ul>
                           </div>
-                          <div class="col-lg-auto col-12 filter__item js-filter__item" data-filter=".category-branding">
-                            <div class="split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">News</div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-4-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">16</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">Use Your Reset Button To Change Your Vibration</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Lifestyle</a></li>
+                            </ul>
                           </div>
-                          <!-- - items-->
-                        </div>
-                        <!-- underline -->
-                        <div class="filter__underline js-filter__underline"></div>
-                        <!-- - underline -->
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-5-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">When You Are Down And Out How Do You Get Up And Go Forward</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Interviews</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
+                      </div>
+                    </div>
+                    <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-3 js-grid__item">
+                      <div class="section-grid__item">
+                        <article class="figure-post">
+                          <!-- post featured image -->
+                          <div class="figure-post__media"><a class="lazy" href="<?php echo base_url('resources/technology/');?>"><img data-src="img/assets/sectionBlog/post-6-thumb.jpg" width="960" height="960" src="#" alt=""/>
+                              <!-- post date -->
+                              <time class="figure-post__date figure-post__date_small" datetime="2020-02-01T04:16:44+00:00"><span class="figure-post__date-day h4">15</span><span class="figure-post__date-month">Feb</span></time>
+                              <!-- - post date --></a></div>
+                          <!-- - post featured image -->
+                          <!-- post header & info  -->
+                          <div class="figure-post__header pt-1"><a class="d-block" href="<?php echo base_url('resources/technology/');?>">
+                              <h2 class="h4 mt-0">Hypnosis 12 Steps To Acquire Mind Power</h2></a>
+                            <ul class="figure-post__categories small-caps">
+                              <li><a href="#">Tips &amp; Tricks</a></li>
+                            </ul>
+                          </div>
+                          <!-- - post header & info -->
+                        </article>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="grid grid_fluid-4 js-grid">
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 grid__sizer js-grid__sizer"></div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-1-fullscreen-center.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-1_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
-                        </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">Nordic Adventure</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
+                  <!-- - posts -->
+                  <!-- pagination-->
+                  <div class="section-blog__wrapper-pagination mt-small">
+                    <nav class="pagination">
+                      <div class="nav-links">
+                        <!-- prev --><a class="page-numbers prev material-icons" href="#">keyboard_arrow_left</a>
+                        <!-- - prev  -->
+                        <!-- numbers container -->
+                        <div class="nav-links__container"><span class="page-numbers current">1</span><a class="page-numbers" href="#">2</a><span class="page-numbers dots">...</span><a class="page-numbers" href="#">4</a></div>
+                        <!-- - numbers container -->
+                        <!-- next --><a class="page-numbers next material-icons" href="#">keyboard_arrow_right</a>
+                        <!-- - next -->
+                      </div>
+                    </nav>
                   </div>
+                  <!-- - pagination -->
                 </div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-2-bottom-center.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-2_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
+                <!-- sidebar -->
+                <div class="col-lg-3 section-blog__sidebar">
+                  <aside class="sidebar sidebar_no-margin-last-widget widget-area">
+                    <!-- widget SEARCH -->
+                    <section class="widget widget_search">
+                      <!-- header -->
+                      <!-- - header -->
+                      <!-- content -->
+                      <form class="search-form" action="index.html" method="get">
+                        <div class="input-float input-search js-input-float">
+                          <input class="input-float__input input-search__input" type="search"/><span class="input-float__label">Search...</span>
+                          <button class="input-search__submit material-icons" type="submit">search</button>
                         </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">Sunrise in Desert</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
-                  </div>
+                      </form>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget SEARCH -->
+                    <!-- widget CATEGORIES LIST -->
+                    <section class="widget widget_categories">
+                      <!-- header -->
+                      <h2 class="widgettitle">Categories</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul>
+                        <li class="cat-item"><a href="#">Interior Design</a><span>10</span></li>
+                        <li class="cat-item"><a href="#">Development</a><span>5</span></li>
+                        <li class="cat-item"><a href="#">Creative Life</a><span>8</span></li>
+                        <li class="cat-item"><a href="#">Travel</a><span>2</span></li>
+                        <li class="cat-item"><a href="#">Interviews</a><span>4</span>
+                          <ul class="children">
+                            <li class="cat-item"><a href="#">Child Category 01</a><span>1</span></li>
+                            <li class="cat-item"><a href="#">Child Category 02</a><span>1</span></li>
+                            <li class="cat-item"><a href="#">Child Category 03</a><span>1</span>
+                              <ul class="children">
+                                <li class="cat-item"><a href="#">Grandchild Category</a><span>1</span></li>
+                              </ul>
+                            </li>
+                            <li class="cat-item"><a href="#">Child Category 04</a><span>1</span></li>
+                            <li class="cat-item"><a href="#">Child Category 05</a><span>1</span></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget CATEGORIES LIST -->
+                    <!-- widget RECENT POSTS -->
+                    <section class="widget widget_recent_entries">
+                      <!-- header -->
+                      <h2 class="widgettitle">Recent Posts</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul>
+                        <li><a href="#"><span>A Brief History Of Creation</span></a>
+                          <div class="post-date">07 Feb 2020</div>
+                        </li>
+                        <li><a href="#"><span>Peace On Earth A Wonderful Wish But</span></a>
+                          <div class="post-date">04 Feb 2020</div>
+                        </li>
+                        <li><a href="#"><span>Know Yourself Your Inner Power</span></a>
+                          <div class="post-date">29 Jan 2020</div>
+                        </li>
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget RECENT POSTS -->
+                    <!-- widget TAGS -->
+                    <section class="widget widget_tag_cloud">
+                      <!-- header -->
+                      <h2 class="widgettitle">Tags</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <div class="tagcloud">
+                        <ul>
+                          <li><a class="tag-cloud-link" href="#">Premium</a></li>
+                          <li><a class="tag-cloud-link" href="#">Creative</a></li>
+                          <li><a class="tag-cloud-link" href="#">UX</a></li>
+                          <li><a class="tag-cloud-link" href="#">Interior</a></li>
+                          <li><a class="tag-cloud-link" href="#">Corporate</a></li>
+                          <li><a class="tag-cloud-link" href="#">Motion</a></li>
+                          <li><a class="tag-cloud-link" href="#">Photography</a></li>
+                        </ul>
+                      </div>
+                      <!-- - content -->
+                    </section>
+                    <!-- - widget TAGS -->
+                  </aside>
                 </div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-ui-ux-design">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-3-halfscreen-left-right.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-3_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
-                        </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">UI UX Design</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">Cassio Apartment</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
-                  </div>
-                </div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-branding">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-4-halfscreen-left-left.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-4_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
-                        </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Branding</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">Nothern Wave</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
-                  </div>
-                </div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-5-bottom-container-center.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-5_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
-                        </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">On the Edge</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
-                  </div>
-                </div>
-                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
-                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="project-details-11-fullscreen-center.html">
-                      <div class="hover-zoom__inner">
-                        <div class="hover-zoom__zoom">
-                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                            <div class="lazy"><img data-src="img/assets/projects/project-11_thumb.jpg" src="#" alt="" width="1024" height="1024"/></div>
-                          </div>
-                        </div>
-                        <div class="figure-project__wrapper-content">
-                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
-                          <div class="figure-project__content figure-project__content_absolute">
-                            <h2 class="h3 figure-project__heading">Dancing in the Dark</h2>
-                          </div>
-                        </div>
-                        <div class="figure-project__overlay overlay overlay_dark"></div>
-                      </div></a>
-                  </div>
-                </div>
+                <!-- - sidebar -->
               </div>
             </div>
           </section>
-          <!-- - section GRID PROJECTS 2 COLUMNS -->
+          <!-- - section BLOG GRID SIDEBAR -->
         </main>
     
