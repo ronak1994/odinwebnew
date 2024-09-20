@@ -29,7 +29,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/soli.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -65,7 +65,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/CHARGESOL.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -100,7 +100,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/zayn.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -136,7 +136,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/Kalkara.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -171,7 +171,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/fun.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -206,7 +206,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/eqiru.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -276,7 +276,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/vsc.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -311,7 +311,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/suu.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -346,7 +346,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/ico.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -417,7 +417,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/Adscc.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -452,7 +452,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/we3minds.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -487,7 +487,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/Travel.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -523,7 +523,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/Sow.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
@@ -559,7 +559,7 @@
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
                             <div class="js-transition-img list-projects__cover overflow js-list-hover__cover">
-                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/assets/projects/project-1.jpg" src="#" alt=""/></div>
+                              <div class="js-transition-img__transformed-el"><img class="of-cover" data-texture-src="img/port/ndfm.png" src="#" alt=""/></div>
                             </div>
                           </div>
                           <!-- - hidden AJAX transition image -->
