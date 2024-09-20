@@ -24,7 +24,7 @@
                   <div class="list-projects js-list-hover" data-arts-hover-strength="0.35" data-arts-hover-scale-texture="1.2" data-arts-hover-scale-plane="0.33">
                     <div class="list-projects__items">
                   
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -60,7 +60,7 @@
                         </div>
                     </a>
                   
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -95,7 +95,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -131,7 +131,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -166,7 +166,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -201,7 +201,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -236,7 +236,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -271,7 +271,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -306,7 +306,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -341,7 +341,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -376,7 +376,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -412,7 +412,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -447,7 +447,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -482,7 +482,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -518,7 +518,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
@@ -554,7 +554,7 @@
                           <!-- - change hover -->
                         </div>
                     </a>
-                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="project-details-1-fullscreen-center.html" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
+                    <a class="list-projects__item pb-small pt-small js-change-text-hover js-list-hover__link" href="" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0.0" data-pjax-link="listHover">
                         <div class="row align-items-center justify-content-center justify-content-md-between">
                           <!-- hidden AJAX transition image -->
                           <div class="col-12 d-md-none">
