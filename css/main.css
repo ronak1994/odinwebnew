@@ -12222,3 +12222,7 @@ small, .small {
 .h1.light {
   color: var(--h1-color-light);
 }
+
+.font-22{
+  font-size: 22px;
+}
