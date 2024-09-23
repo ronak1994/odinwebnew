@@ -164,7 +164,11 @@
       </div>
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
-      <header class="header header_menu-right header_fixed container-fluid" id="page-header" data-arts-theme-text="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"  ){echo "light";}else{echo "light";}?>" data-arts-header-sticky-theme="bg-dark-1" data-arts-header-logo="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="") || $this->uri->segment(1)=="works"){echo "secondary";}else{echo "primary";}?>" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#ffffff">
+      <header 
+      class="header header_menu-right header_fixed container-fluid" id="page-header" 
+      data-arts-theme-text="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="")  ){echo "light";}else{echo "dark";}?>" data-arts-header-sticky-theme="bg-dark-1" 
+      data-arts-header-logo="<?php if($this->uri->segment(1)=="" || ($this->uri->segment(1)=="home" && $this->uri->segment(2)=="")){echo "secondary";}else{echo "primary";}?>" 
+      data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#ffffff">
         <!-- top bar -->
         <div class="header__container header__controls">
           <div class="row justify-content-between align-items-center">

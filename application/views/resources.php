@@ -1,9 +1,20 @@
-<div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
+<div class="js-smooth-scroll pt-small bg-light-1" id="page-wrapper" data-barba="container">
   <main class="page-wrapper__content">
     <!-- section BLOG GRID SIDEBAR -->
-    <section class="section section-blog section-grid pt-large section-content overflow pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+    <section class="section section-blog section-grid section-content overflow pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
       <div class="container">
-        <div class="row justify-content-between">
+         <header class="row pb-small pt-small section-masthead__header">
+            <div class="col-12">
+               <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                  <h2 class="mt-0 mb-0 h2">
+                  We beliver in continous learning
+                </h2>
+                <p>We have curated a special collection of reading material that covers various aspects of enterpenurship. We ensure consistant learning for our community.Reach out to use if you wish explore any particular topic first.</p>
+               </div>
+            </div>
+         </header>
+   
+      <div class="row justify-content-between">
           <div class="col-lg-8 section-blog__posts">
             <!-- posts -->
             <div class="grid grid_fluid-3 js-grid">

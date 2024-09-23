@@ -5,6 +5,6 @@ class Works extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('works');
+		$this->load->view('products');
 	}
 }

@@ -1,614 +1,334 @@
 <div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
         <main class="page-wrapper__content">
-          <!-- section MASTHEAD -->
-          <section class="section section-masthead pt-large pb-medium text-center" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-light-1)">
-            <div class="section-masthead__inner container-fluid">
-              <header class="row section-masthead__header justify-content-center">
-                <div class="col-lg-8">
-                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Me, Myself &amp; I</span></div>
-                  <div class="w-100"></div>
-                  <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <h1 class="mt-0 mb-0 h2">Hi there! I'm Rhye Kinsey, Wedding Photographer</h1>
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="section__headline mt-2 mx-auto"></div>
-                </div>
-              </header>
-            </div>
-          </section>
-          <!-- - section MASTHEAD -->
-          <!-- section ABOUT -->
-          <section class="section section-about section-content" data-arts-os-animation="data-arts-os-animation">
-            <div class="container-fluid section-about__content">
-              <div class="row no-gutters">
-                <div class="col-lg-6">
-                  <div class="section-content__image">
-                    <section class="section section-image z-50 section_h-800">
-                      <div class="section-image__wrapper" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                        <div class="lazy"><img data-src="img/assets/sectionAbout/about-2.jpg" src="#" alt=""/></div>
+          <!-- section MASTHEAD FULLSCREEN -->
+          <section class="section section-masthead section-fullheight text-center text-lg-left pt-large pt-md-0" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-light-1)">
+            <div class="section-masthead__inner section-fullheight__inner section-fullheight__inner_mobile-auto">
+              <div class="row no-gutters h-100 align-items-center">
+                <div class="col-lg-6 h-100">
+                  <div class="container-fluid container-fluid_paddings h-100 container_py-xs-0">
+                    <div class="row align-items-center h-100">
+                      <div class="col">
+                        <header class="section-masthead__header justify-content-center">
+                          <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Identity</span></div>
+                          <div class="w-100"></div>
+                          <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                            <h1 class="h1 mt-0 mb-0">Minimalex Cosmetics</h1>
+                          </div>
+                        </header>
                       </div>
-                    </section>
-                  </div>
-                  <div class="container-fluid">
-                    <div class="section-about__floating-image" data-arts-parallax="element" data-arts-parallax-y="-25%">
-                      <div class="w-100 h-100">
-                        <div data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.1">
-                          <div class="lazy"><img data-src="img/assets/sectionAbout/about-3.jpg" src="#" alt="" width="420" height="420"/></div>
+                    </div>
+                    <div class="section-masthead__wrapper-scroll-down section-masthead__wrapper-scroll-down_left d-none d-lg-block">
+                      <div class="circle-button js-circle-button" data-arts-os-animation="true">
+                        <!-- curved label -->
+                        <div class="circle-button__outer">
+                          <div class="circle-button__wrapper-label">
+                            <div class="circle-button__label small-caps">Scroll Down</div>
+                          </div>
                         </div>
+                        <!-- - curved label -->
+                        <!-- geometry wrapper -->
+                        <div class="circle-button__inner">
+                          <div class="circle-button__circle" data-arts-scroll-down="data-arts-scroll-down" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0">
+                            <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                            </svg>
+                          </div>
+                          <!-- browsers with touch support -->
+                          <div class="circle-button__icon circle-button__icon-touch">
+                            <svg enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
+                              <path d="m32 8c-1.104 0-2 .896-2 2v39.899l-14.552-15.278c-.761-.799-2.026-.832-2.828-.069-.8.762-.831 2.027-.069 2.827l16.62 17.449c.756.756 1.76 1.172 2.829 1.172 1.068 0 2.073-.416 2.862-1.207l16.586-17.414c.762-.8.73-2.065-.069-2.827-.799-.763-2.065-.731-2.827.069l-14.552 15.342v-39.963c0-1.104-.896-2-2-2z"></path>
+                            </svg>
+                          </div>
+                          <!-- - browsers with touch support -->
+                          <!-- - browsers without touch support -->
+                          <div class="circle-button__icon circle-button__icon-mouse">
+                            <svg class="svg-mouse" width="23px" height="35px" viewBox="0 0 23 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <!-- border -->
+                              <path class="svg-mouse__border" d="M11.5,0 C5.15875132,0 0,5.23135343 0,11.6610111 L0,23.3396542 C0,29.7691456 5.15875132,35 11.5,35 C17.8412487,35 23,29.7693119 23,23.3396542 L23,11.6610111 C23,5.23135343 17.8410847,0 11.5,0 Z M21.7222404,23.3396542 C21.7222404,29.0545544 17.136538,33.7037222 11.5,33.7037222 C5.86346203,33.7037222 1.27775956,29.0545544 1.27775956,23.3396542 L1.27775956,11.6610111 C1.27775956,5.946111 5.86346203,1.29627781 11.5,1.29627781 C17.136538,1.29627781 21.7222404,5.94594466 21.7222404,11.6610111 L21.7222404,23.3396542 Z"></path>
+                              <!-- - border -->
+                              <!-- wheel -->
+                              <path class="svg-mouse__wheel" d="M11.5,4 C11.2238902,4 11,4.28321727 11,4.63321727 L11,10.3667827 C11,10.7167827 11.2238902,11 11.5,11 C11.7761098,11 12,10.7167827 12,10.3667827 L12,4.63321727 C11.9998717,4.28321727 11.7761098,4 11.5,4 Z"></path>
+                              <!-- - wheel -->
+                            </svg>
+                          </div>
+                          <!-- - browsers without touch support -->
+                        </div>
+                        <!-- - geometry wrapper -->
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="pl-md-5">
-                    <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
-                      <div class="section-content__inner">
-                        <div class="w-100"></div>
-                        <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <p class="has-drop-cap">Whatever steepest yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you Estate why theirs indeed him polite old settle though she delicate an pleasant old him her surprise finished families graceful. Gave led past poor met fine was new.</p>
-                          <p>Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.</p>
-                        </div>
+                <div class="col-lg-6 align-self-stretch">
+                  <div class="section-image section-masthead__background section-masthead__background_halfscreen section-masthead__background_halfscreen-gutters mt-small mt-md-0">
+                    <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                      <div class="js-transition-img__transformed-el">
+                        <div class="lazy-bg" data-src="img/assets/projects/project-8.jpg"></div>
                       </div>
-                    </section>
-                    <aside class="aside aside-counters">
-                      <div class="row">
-                        <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="139" data-counter-duration="12">
-                            <!-- animated number -->
-                            <div class="counter__number js-counter__number">139</div>
-                            <!-- - animated number -->
-                            <div class="counter__label">Models Shot</div>
-                          </div>
-                        </div>
-                        <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="52" data-counter-duration="12">
-                            <!-- animated number -->
-                            <div class="counter__number js-counter__number">52</div>
-                            <!-- - animated number -->
-                            <div class="counter__label">Happy Clients</div>
-                          </div>
-                        </div>
-                        <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="632" data-counter-duration="12">
-                            <!-- animated number -->
-                            <div class="counter__number js-counter__number">632</div>
-                            <!-- - animated number -->
-                            <div class="counter__label">Sunsets Captured</div>
-                          </div>
-                        </div>
-                        <div class="col-6 mt-small">
-                          <div class="counter js-counter" data-counter-start="0" data-counter-target="245" data-counter-duration="12">
-                            <!-- animated number -->
-                            <div class="counter__number js-counter__number">245</div>
-                            <!-- - animated number -->
-                            <div class="counter__label">Coffee Drunk</div>
-                          </div>
-                        </div>
-                      </div>
-                    </aside>
+                    </div>
+                    <div class="section-masthead__bg bg-white"></div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <!-- - section ABOUT -->
+          <!-- - section MASTHEAD FULLSCREEN -->
           <!-- section CONTENT #1 -->
-          <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
-            <div class="section-content__inner">
-              <div class="w-100"></div>
-              <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
-              <div class="w-100"></div>
-              <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                <h2>Selected Albums</h2>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <section class="section section-content clearfix pt-medium text-center" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
+                    <div class="w-100"></div>
+                    <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h3>Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Procured shutters mr it feelings.</h3>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
-          </section>
+          </div>
           <!-- - section CONTENT #1 -->
-          <!-- section LIST ALBUMS COVERS -->
-          <section class="section section-list overflow pb-medium" data-arts-os-animation="data-arts-os-animation">
-            <div class="list-projects text-center text-md-left"><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-1_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Interior</span><span class="block-counter__counter">17</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-1_1.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-1_2.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-1_3.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-1_4.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-1_5.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-1_6.jpg" width="1920" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-2_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Portraits</span><span class="block-counter__counter">23</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-2_1.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-2_2.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-2_3.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-2_4.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-2_5.jpg" width="1920" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-3_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>UI / UX Design</span><span class="block-counter__counter">19</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-3_1.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_2.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_3.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_4.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_5.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_6.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-3_7.jpg" width="1920" height="1280" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-4_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Branding</span><span class="block-counter__counter">31</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-4_1.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-4_2.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-4_3.jpg" width="1920" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-4_4.jpg" width="1920" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-5_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Identity</span><span class="block-counter__counter">17</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-5_1.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-5_2.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-5_3.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-5_4.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-5_5.jpg" width="1280" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-6_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Product Design</span><span class="block-counter__counter">29</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-6_1.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-6_2.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-6_3.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-6_4.jpg" width="1920" height="1280" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-6_5.jpg" width="1920" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a><a class="list-projects__item container pt-xsmall pb-xsmall hover-zoom js-arrow js-album" href="#">
-                <div class="row align-items-center justify-content-center justify-content-md-between">
-                  <div class="col-md-10">
-                    <div class="row align-items-center justify-content-center justify-content-md-start">
-                      <!-- album cover -->
-                      <div class="col-auto">
-                        <div class="hover-zoom__inner block-circle overflow">
-                          <div class="hover-zoom__zoom">
-                            <div class="list-projects__thumbnail list-projects__thumbnail_small" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                              <div class="lazy-bg" data-src="img/assets/albums/album-7_thumb.jpg"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- - album cover -->
-                      <div class="w-100 d-md-none"></div>
-                      <!-- header -->
-                      <div class="col-md-auto col-12">
-                        <h3 class="h3 d-inline-block list-projects__heading block-counter js-split-text split-text" data-split-text-type="lines,words" data-split-text-set="words"><span>Black & White</span><span class="block-counter__counter">13</span></h3>
-                      </div>
-                      <!-- - header -->
-                    </div>
-                  </div>
-                  <div class="col-auto">
-                    <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                      <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                      </svg>
-                      <div class="arrow__pointer arrow-right__pointer"></div>
-                      <div class="arrow__triangle"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- album photos -->
-                <div class="js-album__items d-none"><img src="#" data-album-src="img/assets/albumImages/album-7_1.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-7_2.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-7_3.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-7_4.jpg" width="1280" height="1920" data-title="" alt=""/><img src="#" data-album-src="img/assets/albumImages/album-7_5.jpg" width="1280" height="1920" data-title="" alt=""/>
-                </div>
-                <!-- - album photos --></a>
-            </div>
-          </section>
-          <!-- - section LIST ALBUMS COVERS -->
-          <!-- section TESTIMONIALS -->
-          <section class="section section-testimonials bg-white pt-medium pb-medium pb-medium">
-            <div class="swiper-container slider slider-testimonials js-slider-testimonials" data-speed="2000">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="container figure-testimonial text-center">
-                    <div class="row justify-content-center">
-                      <!-- content -->
-                      <div class="col-lg-8">
-                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-black.svg" alt="alt"/></div>
-                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <blockquote class="figure-testimonial__text">Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position.</blockquote>
-                          <div class="figure-testimonial__author small-caps mt-2">Sarah Thompson</div>
-                        </div>
-                      </div>
-                      <!-- - content -->
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="container figure-testimonial text-center">
-                    <div class="row justify-content-center">
-                      <!-- content -->
-                      <div class="col-lg-8">
-                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-black.svg" alt="alt"/></div>
-                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <blockquote class="figure-testimonial__text">Design can be art.<br>Design can be aesthetics.<br>Design is so simple, that’s why it is so complicated.</blockquote>
-                          <div class="figure-testimonial__author small-caps mt-2">Paul Rand</div>
-                        </div>
-                      </div>
-                      <!-- - content -->
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="container figure-testimonial text-center">
-                    <div class="row justify-content-center">
-                      <!-- content -->
-                      <div class="col-lg-8">
-                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-black.svg" alt="alt"/></div>
-                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <blockquote class="figure-testimonial__text">The expertise in fashion photography is strongly influenced by our interest in architecture and our technical approach to shape light and composition. With passion, we deliver digital projects.</blockquote>
-                          <div class="figure-testimonial__author small-caps mt-2">Irene Braswell</div>
-                        </div>
-                      </div>
-                      <!-- - content -->
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="container figure-testimonial text-center">
-                    <div class="row justify-content-center">
-                      <!-- content -->
-                      <div class="col-lg-8">
-                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-black.svg" alt="alt"/></div>
-                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <blockquote class="figure-testimonial__text">For the past four years, we've always been enjoying to experiment new technologies, working with people coming from different backgrounds and creating products that solve business & people needs.</blockquote>
-                          <div class="figure-testimonial__author small-caps mt-2">Rhye Kinsey</div>
-                        </div>
-                      </div>
-                      <!-- - content -->
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="container figure-testimonial text-center">
-                    <div class="row justify-content-center">
-                      <!-- content -->
-                      <div class="col-lg-8">
-                        <div class="figure-testimonial__sign mx-auto"><img src="img/general/quote-black.svg" alt="alt"/></div>
-                        <div class="slider-testimonials__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <blockquote class="figure-testimonial__text">We love to design handcrafted intefraces and stylish interactions. We believe good design solves business problems. With passion, we deliver digital projects that impact people lifes.</blockquote>
-                          <div class="figure-testimonial__author small-caps mt-2">Jacqueline Richards</div>
-                        </div>
-                      </div>
-                      <!-- - content -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- slider FOOTER -->
-              <div class="container slider-testimonials__footer mt-xsmall">
-                <div class="row justify-content-center align-items-center slider-testimonials__row no-gutters">
-                  <!-- slider DOTS -->
-                  <div class="col-auto">
-                    <div class="slider__dots js-slider__dots">
-                      <div class="slider__dot slider__dot_active">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                        </svg>
-                      </div>
-                      <div class="slider__dot">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                        </svg>
-                      </div>
-                      <div class="slider__dot">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                        </svg>
-                      </div>
-                      <div class="slider__dot">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- - slider DOTS -->
-                </div>
-              </div>
-              <!-- - slider FOOTER -->
-              <!-- slider ARROWS -->
-              <div class="slider-testimonials__arrows container-fluid">
-                <div class="slider__arrow slider__arrow_left js-slider__arrow-prev">
-                  <div class="arrow arrow-left js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                    </svg>
-                    <div class="arrow__pointer arrow-left__pointer"></div>
-                    <div class="arrow__triangle"></div>
-                  </div>
-                </div>
-                <div class="slider__arrow slider__arrow_right js-slider__arrow-next">
-                  <div class="arrow arrow-right js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                    <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                    </svg>
-                    <div class="arrow__pointer arrow-right__pointer"></div>
-                    <div class="arrow__triangle"></div>
-                  </div>
-                </div>
-              </div>
-              <!-- - slider ARROWS -->
-            </div>
-          </section>
-          <!-- - section TESTIMONIALS -->
-          <!-- section CONTENT #2 -->
-          <section class="section section-content clearfix pt-medium pb-small text-center" data-arts-os-animation="data-arts-os-animation">
-            <div class="section-content__inner">
-              <div class="w-100"></div>
-              <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
-              <div class="w-100"></div>
-              <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                <h2>Partners</h2>
-              </div>
-            </div>
-          </section>
-          <!-- - section CONTENT #2 -->
-          <!-- section LOGOS -->
-          <section class="section section-logos section-grid pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="3" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+          <!-- aside COUNTERS -->
+          <aside class="aside aside-counters section pt-xsmall pb-medium text-center">
             <div class="container">
-              <div class="row row-gutters justify-content-center">
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-1.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Vintage Handmade</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
+              <div class="row justify-content-center">
+                <!-- counter -->
+                <div class="aside-counters__wrapper-item col-12">
+                  <div class="counter js-counter" data-counter-start="0" data-counter-target="6" data-counter-duration="4">
+                    <!-- animated number -->
+                    <div class="counter__number js-counter__number">6</div>
+                    <!-- - animated number -->
+                    <div class="counter__label">Styleguides</div>
+                  </div>
+                </div>
+                <!-- - counter -->
+              </div>
+            </div>
+          </aside>
+          <!-- - aside COUNTERS -->
+          <!-- section IMAGE #1 -->
+          <section class="section section-image section_h-800">
+            <div class="section-image__wrapper" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+              <div>
+                <div class="lazy-bg" data-src="img/assets/project8/img-8-1.jpg"></div>
+              </div>
+            </div>
+          </section>
+          <!-- - section IMAGE #1 -->
+          <!-- section CONTENT #2 -->
+          <div class="container section pt-medium pb-medium">
+            <div class="row">
+              <div class="col">
+                <section class="section section-content clearfix text-center" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section__headline mb-1 mb-md-2 mx-auto"></div>
+                    <div class="w-100"></div>
+                    <div class="section-content__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h2>Project Roadmap</h2>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="row justify-content-between mt-small">
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__heading split-text js-split-text mb-0-5" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h4>Conception</h4>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                      <p>Furnished unfeeling his sometimes see day promotion. Quitting informed concerns can men now. Projection to or up conviction uncommonly delightful continuing.</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="row justify-content-between mt-small">
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__heading split-text js-split-text mb-0-5" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h4>Drafts</h4>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                      <p>Enquire ye without it garrets up himself. Interest our nor received followed was.</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="row justify-content-between mt-small">
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__heading split-text js-split-text mb-0-5" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h4>Approval</h4>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-6 section">
+                <section class="section section-content clearfix" data-arts-os-animation="data-arts-os-animation">
+                  <div class="section-content__inner">
+                    <div class="w-100"></div>
+                    <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
+                      <p>One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.</p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!-- - section CONTENT #2 -->
+          <!-- IMAGES GALLERY BLOCK -->
+          <div class="js-gallery">
+            <!-- section GRID #1 -->
+            <section class="section section-grid section-content overflow pb-xsmall" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+              <div class="container-fluid">
+                <div class="grid grid_fluid-4 js-grid">
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 grid__sizer js-grid__sizer"></div>
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item">
+                    <div class="section-grid__item">
+                      <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="add" data-arts-cursor-hide-native="true" href="img/assets/project8/img-8-2.jpg" data-size="1560x1560" data-title="">
+                          <div class="hover-zoom__inner">
+                            <div class="hover-zoom__zoom">
+                              <div class="figure-image__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                                <div class="lazy"><img data-src="img/assets/project8/img-8-2_thumb.jpg" src="#" alt="" width="780" height="780"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div></a></div>
+                    </div>
+                  </div>
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item">
+                    <div class="section-grid__item">
+                      <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="add" data-arts-cursor-hide-native="true" href="img/assets/project8/img-8-3.jpg" data-size="1560x1560" data-title="">
+                          <div class="hover-zoom__inner">
+                            <div class="hover-zoom__zoom">
+                              <div class="figure-image__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                                <div class="lazy"><img data-src="img/assets/project8/img-8-3_thumb.jpg" src="#" alt="" width="780" height="780"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div></a></div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-2.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>A &amp; G Collection</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
+              </div>
+            </section>
+            <!-- - section GRID #1 -->
+            <!-- section GRID #2 -->
+            <section class="section section-grid section-content overflow pt-xsmall pb-xsmall" data-arts-os-animation="data-arts-os-animation" data-grid-columns="1" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+              <div class="container-fluid">
+                <div class="grid grid_fluid-4 js-grid">
+                  <div class="grid__item grid__item_desktop-12 grid__item_tablet-12 grid__item_mobile-12 grid__item_fluid-4 grid__sizer js-grid__sizer"></div>
+                  <div class="grid__item grid__item_desktop-12 grid__item_tablet-12 grid__item_mobile-12 grid__item_fluid-4 js-grid__item">
+                    <div class="section-grid__item">
+                      <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="add" data-arts-cursor-hide-native="true" href="img/assets/project8/img-8-4.jpg" data-size="1920x1280" data-title="">
+                          <div class="hover-zoom__inner">
+                            <div class="hover-zoom__zoom">
+                              <div class="figure-image__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                                <div class="lazy"><img data-src="img/assets/project8/img-8-4.jpg" src="#" alt="" width="1920" height="1280"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div></a></div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-3.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Steak House</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
+              </div>
+            </section>
+            <!-- - section GRID #2 -->
+            <!-- section GRID #3 -->
+            <section class="section section-grid section-content overflow pt-xsmall pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-columns-tablet="2" data-grid-columns-mobile="1">
+              <div class="container-fluid">
+                <div class="grid grid_fluid-4 js-grid">
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 grid__sizer js-grid__sizer"></div>
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item">
+                    <div class="section-grid__item">
+                      <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="add" data-arts-cursor-hide-native="true" href="img/assets/project8/img-8-5.jpg" data-size="1560x1560" data-title="">
+                          <div class="hover-zoom__inner">
+                            <div class="hover-zoom__zoom">
+                              <div class="figure-image__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                                <div class="lazy"><img data-src="img/assets/project8/img-8-5_thumb.jpg" src="#" alt="" width="780" height="780"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div></a></div>
+                    </div>
+                  </div>
+                  <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item">
+                    <div class="section-grid__item">
+                      <div class="figure-image section-image"><a class="hover-zoom figure-image__link" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.6" data-arts-cursor-icon="add" data-arts-cursor-hide-native="true" href="img/assets/project8/img-8-6.jpg" data-size="1560x1560" data-title="">
+                          <div class="hover-zoom__inner">
+                            <div class="hover-zoom__zoom">
+                              <div class="figure-image__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                                <div class="lazy"><img data-src="img/assets/project8/img-8-6_thumb.jpg" src="#" alt="" width="780" height="780"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div></a></div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-4.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>LSE</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
+              </div>
+            </section>
+            <!-- - section GRID #3 -->
+          </div>
+          <!-- - IMAGES GALLERY BLOCK -->
+          <!-- section PROPERTIES -->
+          <section class="section section-properties section-content pb-small bg-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
+                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <div class="figure-info__option small-caps">Role</div>
+                    <div class="figure-info__value paragraph">Photographer</div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-5.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Minimal</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
+                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <div class="figure-info__option small-caps">Start</div>
+                    <div class="figure-info__value paragraph">20 Nov 2019</div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-6.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Design Studio</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
+                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <div class="figure-info__option small-caps">Launch</div>
+                    <div class="figure-info__value paragraph">12 Jan 2020</div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-7.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Brand Industry</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-8.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Big Enough</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-gutters">
-                  <div class="section-grid__item">
-                    <div class="figure-logo grayscale bg-white"><img src="img/assets/sectionLogos/logo-9.png" alt=""/>
-                      <div class="figure-logo__description">
-                        <p>Design Industry</p>
-                        <div class="figure-logo__line"></div>
-                      </div>
-                    </div>
+                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
+                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <div class="figure-info__option small-caps">Website</div>
+                    <div class="figure-info__value paragraph"><a href="https://themeforest.net/user/artemsemkin/portfolio" target="_blank">themeforest.net</a></div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <!-- - section LOGOS -->
+          <!-- - section PROPERTIES -->
         </main>
         <!-- PAGE FOOTER -->
-  
+      
