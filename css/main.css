@@ -127,6 +127,9 @@
  * ==========================================================================
  * ==========================================================================
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
 :root {
   /* Fonts */
   --font-primary: 'Raleway', sans-serif;
@@ -265,6 +268,12 @@ body {
   color: var(--paragraph-color-dark);
   word-wrap: break-word;
 }
+
+h1.check{
+ text-transform: uppercase;
+ font-family: "Kanit", sans-serif;
+}
+
 
 .body_lock-scroll {
   overflow: hidden;
@@ -12225,4 +12234,28 @@ small, .small {
 
 .font-22{
   font-size: 22px;
+}
+
+.footer-btn{
+  padding: 15px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: -55px;
+  right: 0px;
+}
+
+.ic-footer{
+  font-size: 14px;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+
+.widget_nav_menu .social__item a{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.mt-10{
+  margin-top: 10px;
 }

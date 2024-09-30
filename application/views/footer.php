@@ -1,27 +1,14 @@
+<div class="footer__area-border-top"></div>
 <!-- PAGE FOOTER -->
-<footer class="footer container-fluid" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
+<footer class="footer container-fluid" id="page-footer" 
+data-arts-theme-text="<?php if($this->uri->segment(1)=="contactus"){echo "dark";}else{echo "light";}?>" 
+data-arts-footer-logo="primary">
           <!-- widgets top area -->
-          <div class="footer__area pt-md-5 pt-sm-3 pb-md-3 pb-sm-1 pt-2 pb-0 footer__area-border-top">
-            <div class="row">
-              <!-- call to action -->
-              <div class="col-lg-5">
-                <section class="widget widget_rhye_cta">
-                  <!-- header -->
-                  <h2 class="h2 mt-0 mb-0">Ready to Make Your Stories Live?</h2>
-                  <p style="display:inline-block;"><small class=" mt-0 mb-4" style="border-bottom:  1px solid #f4f4f4;">Web, Mobile and Software</small></p>
-                  <!-- - header -->
-                  <!-- button --><a class="button button_solid button_black mb-0-5" style="display:block;" data-hover="Get in Touch" href="<?php echo base_url() . 'contactus';?>"><span class="button__label-hover">Get in Touch</span></a>
-                  <!-- - button -->
-                </section>
-              </div>
-              <!-- - call to action -->
-              <div class="col-lg-7">
-                <div class="row justify-content-lg-between">
-
-                  <!-- widget MENU #2 -->
-                  <!-- - widget MENU #2 -->
-                  <!-- widget MENU #3 -->
-                  <div class="col-lg-6 col-sm-6 col-12">
+          <div style="padding-top:20px" class="footer__area">
+            <div class="row justify-content-lg-between">
+                 
+                  <!-- - widget MENU #3 -->
+                  <div class="col-lg-3 col-sm-3 col-6">
                     <section class="widget widget_nav_menu">
                       <!-- header -->
                       <h2 class="widgettitle">Services</h2>
@@ -36,69 +23,96 @@
                         </li>
                         <li><a href="<?php echo base_url() . 'services';?>">Branding</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'services';?>">Startup consulting</a>
+                        <li><a href="<?php echo base_url() . 'services';?>">View All</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'services';?>">Social media marketing</a>
-                        </li>
+                      
                       </ul>
                       <!-- - content -->
                     </section>
                   </div>
-                  <!-- - widget MENU #3 -->
-                  <!-- widget MENU #4 -->
-                  <div class="col-lg-6 col-sm-6 col-12">
+                  <!-- - widget MENU #3 -->    
+                     <!-- - widget MENU #3 -->
+                  <div class="col-lg-3 col-sm-3 col-6">
                     <section class="widget widget_nav_menu">
                       <!-- header -->
-                      <h2 class="widgettitle">Quick Links</h2>
+                      <h2 class="widgettitle">Information</h2>
                       <!-- - header -->
                       <!-- content -->
                       <ul class="menu js-menu">
-                        <li><a href="<?php echo base_url() ;?>">Home</a>
+                        <li><a href="<?php echo base_url() . 'privacy';?>">Privacy Policy</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'works';?>">Works</a>
+                        <li><a href="<?php echo base_url() . 'terms';?>">Terms & Conditions</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'services';?>">Services</a>
+                        <li><a href="<?php echo base_url() . 'returns';?>">Returns & Refunds</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'aboutus';?>">About us</a>
+                        <li><a href="<?php echo base_url() . 'returns';?>">Press & Media</a>
                         </li>
-                        <li><a href="<?php echo base_url() . 'contactus';?>">Contact us</a>
+                        <li><a href="<?php echo base_url() . 'contactus';?>">Contact Us</a>
                         </li>
+                       
                       </ul>
                       <!-- - content -->
                     </section>
                   </div>
-                  <!-- - widget MENU #4 -->
-                </div>
-              </div>
+                  <!-- - widget MENU #3 -->     
+                       <!-- - widget MENU #3 -->
+                  <div class="col-lg-3 col-sm-3 col-6">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">Company</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="<?php echo base_url() . 'aboutus';?>">About Us</a>
+                        </li>
+                        <li><a href="<?php echo base_url() . 'industries';?>">Industries</a>
+                        </li>
+                        <li><a href="<?php echo base_url() . 'products';?>">Products</a>
+                        </li>
+                        <li><a href="<?php echo base_url() . 'portfolio';?>">Portfolio</a>
+                        </li>
+                        <li><a href="<?php echo base_url() . 'resources';?>">Resources</a>
+                        </li>
+                       
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                  </div>
+                  <!-- - widget MENU #3 -->  
+                  <div class="col-lg-3 col-sm-3 col-6 p-0">
+                    <section class="widget widget_nav_menu">
+                      <p class="mt-0">Subscribe for a no-spam, weekly newsletter and stay ahead of the curve.</p>
+                        <label class="input-float js-input-float mt-10">
+                          <input class="input-float__input footer-input" type="email" name="visitor_email" required="required" data-msg="Please enter a correct e-mail"/>
+                          <span class="input-float__label">Your E-mail</span><span class="form__error"></span>
+                        </label>
+                        <button class="button footer-btn button_solid button_black button_fullwidth" >
+                          <span class="button__label-hover">
+                          <div class="figure-icon__icon icon-expand ic-footer"></div>
+                          </span>
+                        </button> 
+                     <br />
+                        <li style="margin-left:-17.5px" class="social__item"><a target="_blank" class="fa fa-facebook-f" href="https://www.facebook.com/theodinjaipur/"></a></li>
+                          <li class="social__item"><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/theodin.in/"></a></li>
+                          <li class="social__item"><a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/company/theodin/"></a></li>
+                          <li class="social__item"><a target="_blank" class="fa fa-whatsapp" href="https://wa.me/91774227991"></a></li>
+                        
+                    </section>
+                  </div>   
             </div>
           </div>
           <!-- - widgets top area -->
-          <!-- widgets bottom area -->
-          <div class="footer__area footer__area-border-top pt-sm-3 pb-sm-1 pt-2 pb-0">
+          <div class="footer__area pt-sm-1 pt-1 pb-0">
             <div class="row align-items-center">
               <!-- widget LOGO -->
               <div class="col-lg-3 footer__column text-center text-lg-left order-lg-1">
-                <section class="widget widget_rhye_logo">
-                  <!-- content --><a class="logo" href="<?php echo base_url();?>">
-                    <div class="logo__wrapper-img">
-                      <!-- primary logo version (for light backgrounds)--><img class="logo__img-primary header-logo" src="<?php echo base_url() . 'img/general/logo.png'; ?>" alt="Rhye HTML5 Template" height="20"/>
-                      <!-- secondary logo version (for dark backgrounds)--><img class="logo__img-secondary header-logo" src="<?php echo base_url() . 'img/general/logo.png'; ?>" alt="Rhye HTML5 Template" height="20"/>
-                    </div></a>
-                  <!-- - content -->
-                </section>
+               
               </div>
               <!-- - widget LOGO -->
               <!-- widget SOCIAL -->
               <div class="col-lg-3 footer__column text-center text-lg-right order-lg-3">
                 <section class="widget widget_rhye_social">
-                  <!-- content -->
-                  <ul class="social">
-                    <li class="social__item"><a target="_blank" class="fa fa-facebook-f" href="https://www.facebook.com/theodinjaipur/"></a></li>
-                    <li class="social__item"><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/theodin.in/"></a></li>
-                    <li class="social__item"><a target="_blank" class="fa fa-globe" href="<?php echo base_url();  ?>"></a></li>
-                    <li class="social__item"><a target="_blank" class="fa fa-whatsapp" href="https://wa.me/91774227991"></a></li>
-                  </ul>
-                  <!-- - content -->
+                
                 </section>
               </div>
               <!-- - widget SOCIAL -->
@@ -107,7 +121,7 @@
                 <section class="widget widget_text">
                   <!-- content -->
                   <div class="textwidget">
-                    <p><small>© 2020 The Odin.</p>
+                    <p><small>© 2024, All rights reserved. The Odin.</small></p>
                   </div>
                   <!-- - content -->
                 </section>
@@ -115,7 +129,6 @@
               <!-- - widget TEXT -->
             </div>
           </div>
-          <!-- - widgetst bottom area -->
         </footer>
         <!-- - PAGE FOOTER -->
       </div>

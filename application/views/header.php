@@ -245,7 +245,7 @@
                   <ul class="social">
                     <li style="margin-left:-7.5px" class="social__item"><a target="_blank" class="fa fa-facebook-f" href="https://www.facebook.com/theodinjaipur/"></a></li>
                     <li class="social__item"><a target="_blank" class="fa fa-instagram" href="https://www.instagram.com/theodin.in/"></a></li>
-                    <li class="social__item"><a target="_blank" class="fa fa-globe" href="<?php echo base_url();  ?>"></a></li>
+                    <li class="social__item"><a target="_blank" class="fa fa-linkedin" href="https://www.linkedin.com/company/theodin/"></a></li>
                     <li class="social__item"><a target="_blank" class="fa fa-whatsapp" href="https://wa.me/91774227991"></a></li>
                   </ul>
                  
