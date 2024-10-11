@@ -1,7 +1,7 @@
 <div class="footer__area-border-top"></div>
 <!-- PAGE FOOTER -->
 <footer class="footer container-fluid" id="page-footer" 
-data-arts-theme-text="<?php if($this->uri->segment(1)=="contactus"){echo "dark";}else{echo "light";}?>" 
+data-arts-theme-text="<?php if($this->uri->segment(1)=="contactus"||$this->uri->segment(1)=="resources"){echo "dark";}else{echo "light";}?>" 
 data-arts-footer-logo="primary">
           <!-- widgets top area -->
           <div style="padding-top:20px" class="footer__area">
@@ -312,5 +312,11 @@ data-arts-footer-logo="primary">
     <script src="<?php echo base_url() . 'js/components.js'  ?>"></script>
     <!-- - COMPONENTS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwR_TrF6h7-pMxkKv_q2t8BXX3w6QuFOc" async></script>
+ 
+     <!-- VENDOR SCRIPTS -->
+ <script src="<?php echo base_url() . 'js/homeText.js'  ?>"></script>
+
+
+  
   </body>
 </html>

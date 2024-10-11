@@ -93,9 +93,17 @@
  * ==========================================================================
  */
 
+
+
+
+
 /**
  * Try to use high performance GPU on dual-GPU systems
  */
+
+
+
+
 runOnHighPerformanceGPU();
 
 /**
@@ -306,7 +314,7 @@ function initComponents({
 	new ScrollDown({
 		target: scope.find('[data-arts-scroll-down]'),
 		scope,
-		duration: 0.8
+		duration: 1.5
 	})
 	new ArtsParallax({
 		target: scope.find('[data-arts-parallax]'),
@@ -2080,6 +2088,7 @@ class Slider extends BaseComponent {
     if (slider && slider.params.autoplay && slider.params.autoplay.enabled === true) {
       window.$window.on('arts/barba/transition/start', () => {
         slider.autoplay.stop();
+		initScrambleEffect();
       });
 
       if (window.$pagePreloader && window.$pagePreloader.length && window.$pagePreloader.is(':visible')) {
@@ -2394,6 +2403,7 @@ function PJAXStartLoading(data) {
 		window.dispatchEvent(new CustomEvent('arts/barba/transition/start'));
 		window.$barbaWrapper.addClass('cursor-progress');
 		$('.menu').addClass('menu_disabled');
+		initScrambleEffect();
 
 		Scroll.lock(true);
 		window.$document.off('click resize');
@@ -9456,5 +9466,108 @@ function syncAttributes($sourceElement, $targetElement) {
 
 
 })(jQuery);
+
+class TextScramble {
+    constructor(el) {
+        this.el = el;
+        this.chars = '!<>-_\\/[]{}—=+*^?#_______';
+        this.update = this.update.bind(this);
+    }
+
+    setText(newText) {
+        const oldText = this.el.innerText;
+        const length = Math.max(oldText.length, newText.length);
+        const promise = new Promise(resolve => this.resolve = resolve);
+        this.queue = [];
+
+        // Generate character transitions with smooth animation
+        for (let i = 0; i < length; i++) {
+            const from = oldText[i] || '';
+            const to = newText[i] || '';
+            const start = Math.floor(Math.random() * 40);
+            const end = start + Math.floor(Math.random() * 40);
+            this.queue.push({ from, to, start, end });
+        }
+
+        cancelAnimationFrame(this.frameRequest);
+        this.frame = 0;
+        this.update();
+        return promise;
+    }
+
+    update() {
+        let output = '';
+        let complete = 0;
+
+        for (let i = 0, n = this.queue.length; i < n; i++) {
+            let { from, to, start, end, char } = this.queue[i];
+            
+            // Use a smoother animation for character transitions
+            if (this.frame >= end) {
+                complete++;
+                output += `<span style="opacity: 1; transition: opacity 0.3s;">${to}</span>`;
+            } else if (this.frame >= start) {
+                if (!char || Math.random() < 0.28) {
+                    char = this.randomChar();
+                    this.queue[i].char = char;
+                }
+                output += `<span class="dud" style="opacity: 0.5; transition: opacity 0.2s;">${char}</span>`;
+            } else {
+                output += from;
+            }
+        }
+
+        this.el.innerHTML = output;
+
+        if (complete === this.queue.length) {
+            this.resolve();
+        } else {
+            this.frameRequest = requestAnimationFrame(this.update);
+            this.frame++;
+        }
+    }
+
+    randomChar() {
+        return this.chars[Math.floor(Math.random() * this.chars.length)];
+    }
+}
+
+function initScrambleEffect() {
+  
+	const phrases = [
+        'Software Development ',
+        'Mobile Development   ',
+        'E-commerce Websites  ',
+        'Digital Transformation',
+        'User Interface Design',
+        'User Experience Design',
+        'Brand Identity Design',
+        'Performance Marketing',
+    ];
+
+    const el = document.querySelector('.check');
+    if (!el) return;
+
+    const fx = new TextScramble(el);
+    let counter = 0;
+    
+    const next = () => {
+        fx.setText(phrases[counter]).then(() => {
+            setTimeout(next, 2500);
+        });
+        counter = (counter + 1) % phrases.length;
+    };
+
+    next();
+}
+  // Listen for Rhye's PJAX events and reinitialize the effect
+  document.addEventListener('DOMContentLoaded', () => {
+    initScrambleEffect();
+});
+
+window.$window.on('arts/barba/transition/end', () => {
+	initScrambleEffect();
+	
+})
 
 //# sourceMappingURL=components.js.map

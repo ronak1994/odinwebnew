@@ -256,6 +256,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-kerning: none;
           font-kerning: none;
+          scroll-behavior: smooth;
+
 }
 
 body {
