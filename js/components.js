@@ -198,7 +198,7 @@ if (typeof window.theme === 'undefined') {
 		},
 		smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 			enabled: true,
-			damping: 0.12,
+			damping: 0.05,
 			renderByPixels: true,
 			continuousScrolling: false,
 			plugins: {

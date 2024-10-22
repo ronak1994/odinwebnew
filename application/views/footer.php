@@ -313,8 +313,7 @@ data-arts-footer-logo="primary">
     <!-- - COMPONENTS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwR_TrF6h7-pMxkKv_q2t8BXX3w6QuFOc" async></script>
  
-     <!-- VENDOR SCRIPTS -->
- <script src="<?php echo base_url() . 'js/homeText.js'  ?>"></script>
+   
 
 
   
