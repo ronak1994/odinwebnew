@@ -40,37 +40,18 @@
                 <!-- - header -->
                 <!-- content -->
                 <ul>
-                  <li><a href="<?php echo base_url('resources/technology/'); ?>"><span>Is Your D2C Startup Ready to Attract the Right Investors?</span></a>
-                    <div class="post-date">07 Feb 2020</div>
+                <?php for ($i = 0; $i < sizeof($posts); $i++) { ?>
+                  <li><a href="<?php echo base_url() . 'Resources/post/' . $posts[$i]['id'] . '/' . $posts[$i]['url'] ?>"><span><?php echo $posts[$i]['name']; ?></span></a>
+                    <div class="post-date"><?php                                    
+                                                $createdAt = DateTime::createFromFormat('Y-m-d', $posts[$i]['created_at']);
+                                                if ($createdAt) {
+                                                    echo $createdAt->format('d M Y'); // Output in dd/mm/yyyy format
+                                                } else {
+                                                    echo "Invalid date format"; // Handle the case where the date cannot be parsed
+                                                } ?></div>
                   </li>
-                  <li><a href="<?php echo base_url('resources/Equity/'); ?>"><span>Equity Structuring Confusing You? Here’s How to Build a Strong Foundation!</span></a>
-                    <div class="post-date">04 Feb 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/AI/'); ?>"><span>Want to Harness the Power of AI for Your D2C Brand’s Growth?</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/D2C_Brand/'); ?>"><span>Struggling to Make Your D2C Brand Stand Out? Let’s Fix That!</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/D2C_Sales/'); ?>"><span>Are You Maximizing Your D2C Sales Potential?</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/Retain/'); ?>"><span>How Can You Retain Customers and Build Long-Lasting Relationships?</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/Product/'); ?>"><span>Got a Great Product Idea? Here’s How to Turn It Into Reality!</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/Funding/'); ?>"><span>Struggling to Secure Funding? Here’s How to Get Investors Excited About Your D2C Brand!</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/D2C_Startup/'); ?>"><span>Equity Dilemmas Keeping You Up at Night? Let’s Solve Them Together!</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-                  <li><a href="<?php echo base_url('resources/D2C_Brands/'); ?>"><span>Want to Take Your D2C Brand to the Next Level? Here’s How to Use Data to Win!</span></a>
-                    <div class="post-date">29 Jan 2020</div>
-                  </li>
-
+                 
+                  <?php } ?>
                 </ul>
                 <!-- - content -->
               </section>
