@@ -22,13 +22,12 @@
                 <!-- - header -->
                 <!-- content -->
                 <ul>
-                  <li class="cat-item"><a href="#">Interior Design</a><span>10</span></li>
-                  <li class="cat-item"><a href="#">Development</a><span>5</span></li>
-                  <li class="cat-item"><a href="#">Creative Life</a><span>8</span></li>
-                  <li class="cat-item"><a href="#">Travel</a><span>2</span></li>
-                  <li class="cat-item"><a href="#">Interviews</a><span>4</span>
-
-                  </li>
+                <?php foreach ($category_counts as $category => $count) { ?>
+    <li class="cat-item">
+        <a href="#"><?= $category ?></a>
+        <span>(<?= $count ?>)</span>
+    </li>
+<?php } ?>
                 </ul>
                 <!-- - content -->
               </section>

@@ -4,22 +4,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Resources extends CI_Controller {
 	public function index()
 	{
-
 		$this->load->model('Admin_model');
-        $data['posts'] = $this->Admin_model->get_posts_with_images();
-        foreach ($data['posts'] as $p) {
-            $p['url'] = $p['name'];
-            $p['url'] = str_replace(' ', '-', $p['url']); // Replaces all spaces with hyphens.
-
-            $p['url'] = preg_replace('/[^A-Za-z0-9\-]/', '', $p['url']); // Removes special chars.
-            $p['url'] = strtolower($p['url']);
-            $temp[] = $p;
-        }
-        $data['posts'] = $temp;
+		$data['posts'] = $this->Admin_model->get_posts_with_images();
+		
+		$category_counts = []; // To hold the count of each category
+		$temp = []; // To hold processed blog data
+		
+		foreach ($data['posts'] as $p) {
+			$p['url'] = $p['name'];
+			$p['url'] = str_replace(' ', '-', $p['url']); // Replaces all spaces with hyphens.
+			$p['url'] = preg_replace('/[^A-Za-z0-9\-]/', '', $p['url']); // Removes special chars.
+			$p['url'] = strtolower($p['url']);
+			$temp[] = $p;
+		
 //   echo "<pre>";
-//         print_r($data['posts']);
+//         print_r($p['categorie']);
+//         print_r($p['category']);
 //         echo "</pre>";
-// 		die();
+
+
+			// Assuming categories are stored as a comma-separated string in $p['categories']
+			if (($p['category']) && !empty($p['category'])) {
+				$categories = explode(',', $p['category']); // Split categories into an array
+				foreach ($categories as $category) {
+					$category = trim($category); // Trim whitespace
+					if (!empty($category)) {
+						if (!isset($category_counts[$category])) {
+							$category_counts[$category] = 0;
+						}
+						$category_counts[$category]++;
+					}
+				}
+			}
+		}
+		
+		$data['posts'] = $temp;
+		$data['category_counts'] = $category_counts;
+		
 		$this->load->helper('url');
 
 		$this->load->view('header');
@@ -80,71 +101,6 @@ class Resources extends CI_Controller {
 		$this->load->view('resources/blog', $data);
 		$this->load->view('footer');
 	}
-	public function Equity()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post2');
-		$this->load->view('footer');
-	}
-	public function AI()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post3');
-		$this->load->view('footer');
-	}
-	public function D2C_Brand()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post4');
-		$this->load->view('footer');
-	}
-	public function D2C_Sales()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post5');
-		$this->load->view('footer');
-	}
-	public function Relationships()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post6');
-		$this->load->view('footer');
-	}
-	public function Product()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post7');
-		$this->load->view('footer');
-	}
-	public function Funding()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post8');
-		$this->load->view('footer');
-	}
-	public function D2C_Startups()
-	{
-
-		$this->load->model('Admin_model');
-        $data['posts'] = $this->Admin_model->get_posts_with_images();
-        foreach ($data['posts'] as $p) {
-            $p['url'] = $p['name'];
-            $p['url'] = str_replace(' ', '-', $p['url']); // Replaces all spaces with hyphens.
-
-            $p['url'] = preg_replace('/[^A-Za-z0-9\-]/', '', $p['url']); // Removes special chars.
-            $p['url'] = strtolower($p['url']);
-            $temp[] = $p;
-        }
-        $data['posts'] = $temp;
-
-		$this->load->view('header');
-		$this->load->view('resources/technology/post9',$data);
-		$this->load->view('footer');
-	}
-	public function D2C_Brands()
-	{
-		$this->load->view('header');
-		$this->load->view('resources/technology/post10');
-		$this->load->view('footer');
-	}
+	
+	
 }
