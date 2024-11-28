@@ -10,38 +10,36 @@
                     <div class="col-12 col-lg-10">
                     <div class="logo-section">  
                     <div class="logo-grid">
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
-                          <img src="<?php echo base_url('img/home/clients/craftboat.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/zayn.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/soli.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/vsc.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/vsc-us.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/3dn.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/adl.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/ajay.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/banjara.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/charge.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/charu.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/davish.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/divine.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/good.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/lut.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/meraki.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/nat.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/ncc.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/pinn.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/see.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/we3.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/bharat.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/poetica.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/casalino.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/ritusurana.jpg');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/guar.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/kalkara.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/fun.png');?>" alt="Client Logo 1" />
+                          <img src="<?php echo base_url('img/logo/jaipur.png');?>" alt="Client Logo 1" />
+                          
+                          
                          
                          
                       </div>
